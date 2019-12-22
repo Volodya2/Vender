@@ -1,0 +1,297 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column;
+    
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+    margin 0;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    line-height: 1.2;
+    background: url("../img/Lena.jpg");
+    background-size: cover;
+
+}
+
+.intro_inner{
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.intro_suptitle {
+    line-height: 1;
+    font-size: 52px;
+    color: aliceblue;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+}
+
+.intro_title{
+    font-size: 150px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1
+    color: aliceblue;
+}
+
+.intro_title:after {
+    content: ""
+    display: block;
+    width: 60px;
+    height: 3px;
+    
+    background: aliceblue;
+    margin: 60px auto;
+}
+
+
+.header {
+    width: 100%;
+    
+    position: absolute;
+    top: -20;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 30px;
+}
+
+.header_logo {
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav_link{
+    font-weight: 550;
+    vertical-align: top;
+    position: relative;
+    margin: 0 25px;
+    color: aliceblue;
+    text-decoration: none;
+    
+    
+    transition: color .2s linear;
+}
+
+.nav_link:hover {
+    color: #fce38a;
+}
+
+.nav_link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    
+    background-color: aliceblue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.nav_link:hover:after {
+    display: block;
+}
+
+.selection_header {
+    width: 100%;
+    max-width: 1000px;
+    padding: 80px 0;
+    margin: 0 auto 40px;
+    text-align: center;
+    
+    
+}
+
+
+
+.selection_suptitle {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    color: #333;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+.selection_title{
+    
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.selection_title:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 35px auto;
+    
+    background-color: #f38181;
+
+}
+
+.section_text{
+    font-size: 15px;
+    color:#999;
+    
+}
+
+.Some {
+    font-size: 20px;
+}
+    
+
+.about {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: px 70px 70px;
+    
+}
+
+.abot_item {
+width: 30%
+}
+
+.statistic {
+    background-color: #FD4F07;
+    margin-top: 125px;
+}
+
+.stat {
+    display: flex;
+    
+}
+
+.stat_item {
+    flex: 1 1 0;
+    
+    width: 100%;
+    max-width: 300px;
+    border-left: 1px solid #b5eae0;
+    text-align: center;
+    color: #fff;
+    padding: 70px 25px;
+}
+
+.stat_item:last-child {
+    border-right: 1px solid #b5eae0;
+    
+    
+}
+
+.stat_cout {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.stat_text {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Some_img {
+    align-self: center;
+    font-style: italic;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #666;
+    
+    
+}
+
+.header2 {
+    display: flex;
+    flex-direction: column;
+    background: url("../img/Osen.jpg");
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+    background-size: cover;
+}
+
+
+.Lena_Text {
+    color: #A5511C;
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+    margin-top: -400px;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1;
+    
+    
+}
+
+.Glava {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 135px;
+    text-align: center;
+    
+    
+}
+
+.Glava_img {
+    width: 25%;
+    margin: 0px auto;
+    margin-top: px;
+    
+}
+
+.podval {
+    margin-top: 135px;
+    background: #EFC848;
+    padding: 0px 25px;
+}
+
+.Minor{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Permanent Marker', cursive;
+}
+
